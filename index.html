@@ -15,7 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="main.min.scss" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -123,51 +124,51 @@
         </div>
       </section>
       <!-- Особенности -->
-      <section class="section benefits">
+      <section class="benefits section">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
-          <ul class="list-style">
-            <li class="benefits-item">
-              <div class="benefit-box-icon">
-                <svg class="benefit-icon" width="70" height="70">
-                  <use class="icon-antena" href="./images/icons.svg#icon-antenna"></use>
+          <ul class="benefits__list list-style">
+            <li class="benefits__item">
+              <div class="benefits-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title">Внимание к деталям</h3>
-              <p class="text">
+              <h3 class="benefits__title">Внимание к деталям</h3>
+              <p class="benefits__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefit-box-icon">
-                <svg class="benefit-icon" width="70" height="70">
-                  <use class="icon-antena" href="./images/icons.svg#icon-clock"></use>
+            <li class="benefits__item">
+              <div class="benefits-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title">Пунктуальность</h3>
-              <p class="text">
+              <h3 class="benefits__title">Пунктуальность</h3>
+              <p class="benefits__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefit-box-icon">
-                <svg class="benefit-icon" width="70" height="70">
-                  <use class="icon-antena" href="./images/icons.svg#icon-diagram"></use>
+            <li class="benefits__item">
+              <div class="benefits-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title">Планирование</h3>
-              <p class="text">
+              <h3 class="benefits__title">Планирование</h3>
+              <p class="benefits__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="benefits-item">
-              <div class="benefit-box-icon">
-                <svg class="benefit-icon" width="70" height="70">
-                  <use class="icon-antena" href="./images/icons.svg#icon-astronaut"></use>
+            <li class="benefits__item">
+              <div class="benefits-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title">Современные технологии</h3>
-              <p class="text">
+              <h3 class="benefits__title">Современные технологии</h3>
+              <p class="benefits__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -175,13 +176,12 @@
         </div>
       </section>
       <!-- Чем занимаемся -->
-      <section class="section about">
+      <section class="about section">
         <div class="container">
-          <h2 class="about-title">Чем мы занимаемся</h2>
-          <ul class="list-style">
-            <li class="about-item">
+          <h2 class="about__title title-margin">Чем мы занимаемся</h2>
+          <ul class="about__list list-style">
+            <li class="about__item">
               <img
-                class="about-img"
                 src="./images/activity/work-on-pc.jpg"
                 alt="работает на пк"
                 width="370"
@@ -189,9 +189,8 @@
               />
               <p>Десктопные приложения</p>
             </li>
-            <li class="about-item">
+            <li class="about__item">
               <img
-                class="about-img"
                 src="./images/activity/work-on-smartphone.jpg"
                 alt="работает на смартфоне"
                 width="370"
@@ -199,9 +198,8 @@
               />
               <p>Мобильные приложения</p>
             </li>
-            <li class="about-item">
+            <li class="about__item">
               <img
-                class="about-img"
                 src="./images/activity/work-on-ipad.jpg"
                 alt="работает на планшете"
                 width="370"
@@ -215,23 +213,22 @@
       <!-- Команда -->
       <section class="team section">
         <div class="container">
-          <h2 class="team-title">Наша команда</h2>
-          <ul class="list-style">
-            <li class="team-item">
+          <h2 class="team__title title-margin">Наша команда</h2>
+          <ul class="team__list list-style">
+            <li class="team__item">
               <img
-                class="team-img"
                 src="./images/team/igor-demyanenko.jpg"
                 alt="улыбающийся мужчина в очках"
                 width="270"
                 height="260"
               />
-              <div class="team-undercard">
-                <h3 class="title">Игорь Демьяненко</h3>
-                <p class="text" lang="en">Product Designer</p>
-                <ul class="list-style-social">
-                  <li class="list-icon">
+              <div class="team__undercard">
+                <h3 class="team__name">Игорь Демьяненко</h3>
+                <p class="team__profession" lang="en">Product Designer</p>
+                <ul class="social__list">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -242,9 +239,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -255,9 +252,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -268,9 +265,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -284,21 +281,20 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
-                class="team-img"
                 src="./images/team/olga-repina.jpg"
                 alt="улыбающаяся блондинка в очках"
                 width="270"
                 height="260"
               />
-              <div class="team-undercard">
-                <h3 class="title">Ольга Репина</h3>
-                <p class="text" lang="en">Frontend Developer</p>
-                <ul class="list-style-social">
-                  <li class="list-icon">
+              <div class="team__undercard">
+                <h3 class="team__name">Ольга Репина</h3>
+                <p class="team__profession" lang="en">Frontend Developer</p>
+                <ul class="social__list">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -309,9 +305,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -322,9 +318,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -335,9 +331,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -351,21 +347,20 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
-                class="team-img"
                 src="./images/team/nikolay-tarasov.jpg"
                 alt="смеющийся мужчина в голубой рубашке"
                 width="270"
                 height="260"
               />
-              <div class="team-undercard">
-                <h3 class="title">Николай Тарасов</h3>
-                <p class="text" lang="en">Marketing</p>
-                <ul class="list-style-social">
-                  <li class="list-icon">
+              <div class="team__undercard">
+                <h3 class="team__name">Николай Тарасов</h3>
+                <p class="team__profession" lang="en">Marketing</p>
+                <ul class="social__list">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -376,9 +371,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -389,9 +384,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -402,9 +397,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -418,21 +413,20 @@
                 </ul>
               </div>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
-                class="team-img"
                 src="./images/team/mikle-yermakov.jpg"
                 alt="мужчина в очках с серьёзным взглядом"
                 width="270"
                 height="260"
               />
-              <div class="team-undercard">
-                <h3 class="title">Михаил Ермаков</h3>
-                <p class="text" lang="en">UI Designer</p>
-                <ul class="list-style-social">
-                  <li class="list-icon">
+              <div class="team__undercard">
+                <h3 class="team__name">Михаил Ермаков</h3>
+                <p class="team__profession" lang="en">UI Designer</p>
+                <ul class="social__list">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -443,9 +437,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -456,9 +450,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -469,9 +463,9 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="list-icon">
+                  <li>
                     <a
-                      class="link-icon"
+                      class="social__icon"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -491,73 +485,73 @@
       <!-- Постоянные клиенты -->
       <section class="customers section">
         <div class="container">
-          <h2 class="customers-title">Постоянные клиенты</h2>
-          <ul class="list-style">
-            <li class="customer-box">
+          <h2 class="customers__title title-margin">Постоянные клиенты</h2>
+          <ul class="customers__list list-style">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="customer-icon">
+                <svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customer-box">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                ><svg class="customer-icon">
+                ><svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client6"></use></svg
               ></a>
             </li>
-            <li class="customer-box">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                ><svg class="customer-icon">
+                ><svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client5"></use></svg
               ></a>
             </li>
-            <li class="customer-box">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                ><svg class="customer-icon">
+                ><svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client4"></use></svg
               ></a>
             </li>
-            <li class="customer-box">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                ><svg class="customer-icon">
+                ><svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client3"></use></svg
               ></a>
             </li>
-            <li class="customer-box">
+            <li>
               <a
-                class="customer-link"
+                class="customers__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
-                ><svg class="customer-icon">
+                ><svg class="customers__icon">
                   <use href="./images/icons.svg#icon-client2"></use></svg
               ></a>
             </li>
@@ -596,10 +590,10 @@
         <!-- Присоединяйтесь -->
         <div class="join">
           <strong class="join-title">присоединяйтесь</strong>
-          <ul class="list-style-social footer">
+          <ul class="social__list footer">
             <li class="list-icon-footer">
               <a
-                class="link-icon-footer"
+                class="social__icon-footer"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -612,7 +606,7 @@
             </li>
             <li class="list-icon-footer">
               <a
-                class="link-icon-footer"
+                class="social__icon-footer"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -625,7 +619,7 @@
             </li>
             <li class="list-icon-footer">
               <a
-                class="link-icon-footer"
+                class="social__icon-footer"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -638,7 +632,7 @@
             </li>
             <li class="list-icon-footer">
               <a
-                class="link-icon-footer"
+                class="social__icon-footer"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
