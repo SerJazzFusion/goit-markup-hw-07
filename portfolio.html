@@ -15,7 +15,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    
   </head>
   <body>
     <!-- Шапка -->
@@ -27,7 +29,7 @@
         <nav class="nav">
           <ul class="nav-list list-style">
             <li><a class="link line" href="./index.html">Студия</a></li>
-            <li><a class="link line current" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="link current line" href="./portfolio.html">Портфолио</a></li>
             <li><a class="link line" href="./index.html">Контакты</a></li>
           </ul>
         </nav>
@@ -55,7 +57,7 @@
       <section class="filter section">
         <div class="container">
           <h1 class="visually-hidden">Примеры работ</h1>
-          <ul class="list-style btn list">
+          <ul class="filter__btn list-style list">
             <li class="btn-item"><button class="exmp-button" type="button">Все</button></li>
             <li class="btn-item"><button class="exmp-button" type="button">Веб-сайты</button></li>
             <li class="btn-item"><button class="exmp-button" type="button">Приложения</button></li>
@@ -332,63 +334,65 @@
             </ul>
           </address>
         </div>
+        <!-- Присоединяйтесь -->
         <div class="join">
           <strong class="join-title">присоединяйтесь</strong>
-          <ul class="list-style-social footer">
-            <li class="list-icon-footer">
+          <ul class="social__list footer">
+            <li>
               <a
-                class="link-icon-footer"
+                class="social__link social__link--white"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-footer" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon-footer">
+            <li>
               <a
-                class="link-icon-footer"
+                class="social__link social__link--white"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-footer" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon-footer">
+            <li>
               <a
-                class="link-icon-footer"
+                class="social__link social__link--white"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-footer" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon-footer">
+            <li>
               <a
-                class="link-icon-footer"
+                class="social__link social__link--white"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-footer" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+        <!-- Подпишитесь на рассылку -->
         <div>
           <strong class="sign-strong">Подпишитесь на рассылку</strong>
           <form class="form-signup" autocomplete="off">

@@ -1,0 +1,7 @@
+.nav {
+    margin-right: auto;
+
+    &-list.list-style:not(:last-child) {
+        margin-right: 50px;
+      }
+  }
