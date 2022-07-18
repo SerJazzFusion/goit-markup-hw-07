@@ -1,7 +1,12 @@
 .nav {
     margin-right: auto;
+    
+  }
 
-    &-list.list-style:not(:last-child) {
-        margin-right: 50px;
-      }
+  .nav-list.list-style > li {
+    margin-right: 50px;
+  }
+  
+  .nav-list.list-style > li:last-child {
+    margin-right: 0;
   }

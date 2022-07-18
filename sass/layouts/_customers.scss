@@ -24,6 +24,12 @@
       color: var(--accent-color);
       border-color: var(--accent-color);
     }
+
+    &__icon {
+      width: 106px;
+      height: 60px;
+      fill: currentColor;
+    }
 }
 
   
@@ -31,9 +37,5 @@
   
 
   
-  .customers__icon {
-    width: 106px;
-    height: 60px;
-    fill: currentColor;
-  }
+
   
