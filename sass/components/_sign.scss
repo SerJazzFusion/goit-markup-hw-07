@@ -1,3 +1,12 @@
+.sign-strong {
+  display: block;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--main-bgc-text);
+}
+
 .form-signup {
     display: inline-flex;
     gap: 12px;

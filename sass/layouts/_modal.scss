@@ -82,21 +82,6 @@
         transition: fill var(--main-transition);
     }
 
-}
-
-
-  
-textarea {
-    resize: none;
-
-    &::placeholder {
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.01em;
-      
-        color: rgba(117, 117, 117, 0.5);
-    }
-
     &__feedback {
         width: 100%;
         height: 120px;
@@ -113,6 +98,23 @@ textarea {
           outline: transparent;
         }
     }
+
+}
+
+
+  
+textarea {
+    resize: none;
+
+    &::placeholder {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.01em;
+      
+        color: rgba(117, 117, 117, 0.5);
+    }
+
+
 }
   
 
