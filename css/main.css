@@ -685,7 +685,7 @@ textarea::placeholder {
 }
 
 .about {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 .about__list {
   gap: 30px;
