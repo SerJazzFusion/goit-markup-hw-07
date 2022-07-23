@@ -1,40 +1,15 @@
 
 .customers {
-
-    &__title {
-      margin-bottom: 30px;
-
-      @media screen and (min-width: 1200px) {
-        margin-bottom: 50px;
-      }
-    }
-
     &__list {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-  }
-
-    // &__item {
-    //   Пока пустой
-  
-    // }
+        gap: 30px;
+    }
 
     &__link {
         display: flex;
         justify-content: center;
         align-items: center;
-              
-        width: 210px;
-
-        @media screen and (min-width: 768px) {
-          width: 226px;
-        }
-  
-        @media screen and (min-width: 1200px) {
-          width: 170px;
-        }
-
+      
+        width: 170px;
         height: 92px;
         border: 1px solid var(--border-logo-color);
         border-radius: 4px;
